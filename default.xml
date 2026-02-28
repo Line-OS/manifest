@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="lineos"
+  <remote  name="line-os"
            fetch="https://github.com/Line-OS/" />
   <default revision="line-1.0"
-           remote="lineos"
+           remote="line-os"
            sync-j="4" />
 
   <superproject name="platform/superproject" remote="lineos" revision="line-1.0"/>
