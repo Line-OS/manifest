@@ -1,0 +1,32 @@
+Line OS
+===========
+
+Getting started
+---------------
+
+To get started with Android/LineOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+```
+repo init -u https://github.com/Line-OS/manifest.git -b line-1.0 --git-lfs
+```
+Extra: All versions
+```
+line-1.0 = Android 10 (API 29)
+line-1.0-mini (Comming soon) = Android 10 Go (API 29)
+```
+
+Then to sync up:
+```
+repo sync
+```
+Please see the [LineOS Wiki](https://line-os.github.io/site/wiki/) for building instructions, by device.
+
+LiningBuild
+--------
+
+Our automated build generator tool is coming soon.
+
+[Click](https://line-os.github.io/site/liningbuild/progress/PROGRESS.md) to track progress.
+
+To see our prebuilt files, go to  [Line OS Downloads](https://line-os.github.io/site/devices/).
